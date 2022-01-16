@@ -42,7 +42,7 @@ public class Roman_to_Integer {
             }
             if(rInt.get(s.charAt(s.length()-2))>=rInt.get(s.charAt(s.length()-1))){
                 
-                 result+= rInt.get(s.charAt(s.length()-1));
+                 result+= rInt.get(s.charAt(s.length()-1));//adding last elements
     
                 
             }
