@@ -1,5 +1,5 @@
 public class Remove_Duplicates_from_Sorted_Array {
-    //I have to push it 
+    
         public int removeDuplicates(int[] nums) {
             int j=0;
             if(nums.length==0){
