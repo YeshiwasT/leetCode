@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 public class Single_number {
     public int singleNumber(int[] nums) {
         
