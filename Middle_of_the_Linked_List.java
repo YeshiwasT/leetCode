@@ -13,18 +13,18 @@ public class Middle_of_the_Linked_List {
 
     
     
-    public ListNode middleNode(ListNode head) {
-        int i=1;
-        ListNode temp=head;
-        while(head.next!=null){
-            i++;
-           head= head.next;
-        }
-        int j=0;
-        while(j<(i/2)){
-            temp=temp.next;
-            j++;
-        }
-      return temp;  
-    }
+    // public ListNode middleNode(ListNode head) {
+    //     int i=1;
+    //     ListNode temp=head;
+    //     while(head.next!=null){
+    //         i++;
+    //        head= head.next;
+    //     }
+    //     int j=0;
+    //     while(j<(i/2)){
+    //         temp=temp.next;
+    //         j++;
+    //     }
+    //   return temp;  
+    // }
 }
