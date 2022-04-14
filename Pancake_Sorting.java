@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class Pancake_Sorting {
     
     public List<Integer> pancakeSort(int[] arr) {
