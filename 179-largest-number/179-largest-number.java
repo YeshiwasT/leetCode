@@ -11,10 +11,11 @@ class Solution {
             return "0";
         }
                StringBuilder str=new StringBuilder();
+        String std="";
         for(int i=0;i<sArr.length;i++){
-            str.append(sArr[i]);
+            std=std+sArr[i];
         }
         
-        return str.toString();
+        return std;
     }
 }
