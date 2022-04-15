@@ -21,25 +21,19 @@ class Solution {
         while(!q.isEmpty()){
             int size=q.size();
             int n=size;
-           double result=0.0;
-            
+            double result=0.0;
             while(size-- > 0){
                 TreeNode currentNode=  q.poll();
-               
              result += currentNode.val;
                 if(currentNode.right!=null){
-                    q.add(currentNode.right);
-                }
+                    q.add(currentNode.right); }
                  if(currentNode.left!=null){
                     q.add(currentNode.left);
                  }
             }
-            list.add(result/n);
-            
-            
+            list.add(result/n);   
         }
-
-        return list;
+ return list;
         
     }
    
