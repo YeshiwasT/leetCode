@@ -18,10 +18,6 @@ class Solution {
     ArrayList<Integer> list=new ArrayList<>();
     public TreeNode increasingBST(TreeNode root) {
         helper(root);
-        for(int i=0;i<list.size();i++){
-                  System.out.print(list.get(i));
-            
-        }
         int i=0;
         TreeNode current=node;
         while(i<list.size()){
@@ -36,7 +32,6 @@ class Solution {
     public TreeNode helper(TreeNode root){
            if(root==null)return null;  
         helper(root.left);
-        System.out.println(root.val);
         list.add(root.val);
        
         helper(root.right);
