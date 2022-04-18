@@ -12,9 +12,7 @@ class NumMatrix {
          for(int i=0;i<twoD.length;i++){
             for(int j=1;j<twoD[i].length;j++){
                 prefix[i][j]=prefix[i][j-1]+twoD[i][j];
-              //  System.out.print(twoD[i][j]);
                  }
-           // System.out.println();
         }
     }
     
