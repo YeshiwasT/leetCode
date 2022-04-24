@@ -9,7 +9,7 @@ class UndergroundSystem {
     }
     
     public void checkIn(int id, String stationName, int t) {
-        String[] arr={stationName,Integer.toString(t),Integer.toString(1)};
+        String[] arr={stationName,Integer.toString(t)};
         map.put(id,arr);
         
     }
@@ -19,9 +19,6 @@ class UndergroundSystem {
    String key=map.get(id)[0]+2+stationName;
 
         if(mapAvarage.containsKey(key)){
-            String [] arr=map.get(id);
-            arr[2]=Integer.toString(Integer.valueOf(map.get(id)[2])+1);
-            map.put(id,arr);
          double totalAvarage=(mapAvarage.get(key)[0]+totalTime);
          double[] dArr={totalAvarage,Double.valueOf(mapAvarage.get(key)[1]+1)};
       mapAvarage.put(key,dArr);
@@ -36,7 +33,6 @@ class UndergroundSystem {
     
     public double getAverageTime(String startStation, String endStation) {
         String key=startStation+2+endStation;
-        System.out.println(mapAvarage.get(key)[1]);
         return mapAvarage.get(key)[0]/mapAvarage.get(key)[1];
         
     }
