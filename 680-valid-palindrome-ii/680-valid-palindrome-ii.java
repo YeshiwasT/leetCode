@@ -15,7 +15,6 @@ class Solution {
                                    forI.deleteCharAt(i);
                    sBuildI=forI.toString();
                     sBuildIR=forI.reverse().toString();
-                                    System.out.println(sBuildI+" "+sBuildIR);
 
                 }
                 if(sBuild.charAt(i)==sBuild.charAt(n-1)){
@@ -24,7 +23,6 @@ class Solution {
                 
                    sBuildN=forN.toString();
                  sBuildNR=forN.reverse().toString();
-               System.out.println(sBuildN+" "+sBuildNR);
 
 
                 }
@@ -33,7 +31,6 @@ class Solution {
             }
             n--;
         }
-      //  System.out.println(sBuild);
         if(sBuildI.equals(sBuildIR)||sBuildN.equals(sBuildNR)||s.equals(sBuild.reverse().toString())){
             return true;
         }
