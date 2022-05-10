@@ -1,8 +1,8 @@
 class Solution {
-     List<List<Integer>> listOfList= new LinkedList<List<Integer>>();
-    ArrayList<Integer> list=new  ArrayList<Integer>();
+   
     public List<List<Integer>> combinationSum3(int k, int n) {
-       
+         List<List<Integer>> listOfList= new LinkedList<List<Integer>>();
+    ArrayList<Integer> list=new  ArrayList<Integer>();
         int[] arr=new int[9];
         for(int i=0;i<arr.length;i++){
             arr[i]=i+1;}
