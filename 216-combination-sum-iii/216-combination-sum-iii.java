@@ -14,7 +14,7 @@ class Solution {
        listOfList.add(new LinkedList<Integer>(list));
             return;
         }
-        for (int i=start;i<arr.length&&k>0&&total>0;i++){
+        for (int i=start;i<arr.length&&k>0;i++){
               list.add(arr[i]);
               combinationSum(listOfList,arr,i+1,list,k-1,total-arr[i]);
               list.remove(list.size()-1);
