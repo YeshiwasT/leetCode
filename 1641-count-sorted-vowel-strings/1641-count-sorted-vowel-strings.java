@@ -1,15 +1,15 @@
 class Solution {
-    List<String> list=new ArrayList<>(); 
+    int total=0;
     public int countVowelStrings(int n) {
         int start=0;
         StringBuilder sb=new StringBuilder();
         String str="aeiou";
         countVowel(start,sb,str,n,5);
-        return list.size();
+        return total;
     }
     public void countVowel(int start,StringBuilder sb,String str,int n,int len){
         if(n==0){
-           list.add(sb.toString());
+            total++;
             return;}
         for(int i=start;i<len;i++){
             sb.append(str.charAt(i));
