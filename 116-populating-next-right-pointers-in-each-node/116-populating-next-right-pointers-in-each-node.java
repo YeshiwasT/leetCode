@@ -30,28 +30,19 @@ class Solution {
             int n=queue.size();
             while(n-->0){
                Node temp=queue.poll();
-               // if(temp!=null){
                 if(n==0){
                     temp.next=null;
                 }
                 else{
                temp.next=queue.peek();
-                    
                }
-                if(temp.left!=null){
+                if(temp.left!=null)
                     queue.add(temp.left);
-                    
-                }
-                if(temp.right!=null){
+                  
+                if(temp.right!=null)
                     queue.add(temp.right);
                     
-                }
-                    
-                //}
-           
-            }
-            //queue.add(null);
-            
+                 }
         }
         return root;
         
