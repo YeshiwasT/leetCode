@@ -1,6 +1,8 @@
 class Solution {
-        int count=0;
+    //dp solution
     public int countSubstrings(String s) {
+        int count=0;
+        
     int[][] dp=new int[s.length()][s.length()];
         
         for(int i=0,j=0;i<s.length();j++,i++){
