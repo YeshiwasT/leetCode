@@ -8,14 +8,11 @@ class Solution {
             if(j-coins[i]>=0){
              int diff =dp[j-coins[i]]+1;
                 dp[j]=Math.min(diff,dp[j]);
-            }
-        }   
-        }
+            }}  }
         if(dp[amount]>amount){
-            return -1;
-        }
+            return -1; }
         
-      return dp[amount];  
+        return dp[amount];  
         
     }
 }
