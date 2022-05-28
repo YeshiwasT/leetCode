@@ -1,20 +1,11 @@
 class Solution {
     public int missingNumber(int[] nums) {
-       HashMap<Integer,Integer> map=new HashMap<>();
-        for(int i=0;i<=nums.length;i++){
-            map.put(i,1);
-        }
+        int missed=0;
         for(int i=0;i<nums.length;i++){
-         if(map.containsKey(nums[i])){
-             map.replace(nums[i],0);
-         }
+            missed=missed^nums[i]^i;
         }
-        for (Map.Entry<Integer,Integer> entry : map.entrySet()){
-             if( entry.getValue()==1){
-                     return entry.getKey();
-                    }
-        } 
-             
-     return 2;   
+        missed=missed^nums.length;
+        return missed;
+        
     }
 }
