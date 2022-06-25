@@ -6,23 +6,18 @@ class Solution {
                map.replace(words[i],map.get(words[i])+1);
             }else{
                 map.put(words[i],1);
-            }
-        }
-             List<String> list = new ArrayList(map.keySet());
+            } }
+           List<String> list = new ArrayList(map.keySet());
        
-        Collections.sort(list, (w1, w2) -> map.get(w1).equals(map.get(w2)) ?
+           Collections.sort(list, (w1, w2) -> map.get(w1).equals(map.get(w2)) ?
                 w1.compareTo(w2) : map.get(w2) - map.get(w1));
 
-        int i=0;
-                     List<String> ans = new ArrayList<>();
+            int i=0;
+            List<String> ans = new ArrayList<>();
 
-      while(i<k){
-                    ans.add(list.get(i));
-          i++;
-  
-      }
-        
-
+            while(i<k){
+              ans.add(list.get(i));
+              i++;}
         return ans;
     }
 }
