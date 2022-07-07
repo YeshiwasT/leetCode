@@ -9,8 +9,6 @@ class Solution {
             }
             else {
                 ans=Math.max(ans,(long)questions[i][0]+map.get(i+questions[i][1]+1));
-                                System.out.println(ans);
-
                 map.put(i,ans);
             }
         }
