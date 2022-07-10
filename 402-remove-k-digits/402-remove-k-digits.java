@@ -1,5 +1,6 @@
 class Solution {
     public String removeKdigits(String num, int k) {
+     
         int len=num.length();
         int removedNumber=k;
         if(num.length()==k){
@@ -25,7 +26,6 @@ class Solution {
            } 
         }
         while(z<removedNumber&&!stack.isEmpty()){
-            System.out.println('j');
                stack.pop();
                z++;
            } 
