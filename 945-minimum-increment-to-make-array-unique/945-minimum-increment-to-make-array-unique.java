@@ -1,20 +1,20 @@
 class Solution {
     public int minIncrementForUnique(int[] nums) {
-        int count=0;
-        int prvNumber=-1;
-        Arrays.sort(nums);
-        for(int i=0;i<nums.length;i++){
-            if(prvNumber>-1){
-                if(prvNumber>=nums[i]){
-                    int diff=(prvNumber-nums[i])+1;
-                    count+=diff;
-                    nums[i]=nums[i]+diff;
-                }
-            }
-            prvNumber=nums[i];
-        }
         
-             
+        Arrays.sort(nums);
+        int prv=-1;
+        int count=0;
+        for(int i=0;i<nums.length;i++){
+            if(prv>=nums[i]){
+                int sub=prv-nums[i]+1;
+                count+=sub;
+                nums[i]=nums[i]+sub;
+                prv=nums[i];
+            }
+            else{
+                prv=nums[i];
+            }
+        }
         return count;
     }
 }
