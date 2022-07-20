@@ -1,17 +1,22 @@
 class Solution {
     public int maxResult(int[] nums, int k) {
+       
+        Deque<Integer> queue=new LinkedList<>();
         int[] dp=new int[nums.length];
-        Deque<Integer> deque=new LinkedList<>();
-	dp[0]=nums[0];
-        deque.add(0);
+        queue.add(0);
+        dp[0]=nums[0];
         for(int i=1;i<nums.length;i++){
-            if(deque.peekFirst()<i-k)deque.pollFirst();
-            dp[i]=nums[i]+dp[deque.peekFirst()];
-            while(!deque.isEmpty()&&dp[deque.peekLast()]<=dp[i])
-                deque.pollLast();
-            deque.add(i);
+           if(queue.peekFirst()<i-k)queue.pollFirst();
+            dp[i]=nums[i]+dp[queue.peekFirst()];
+            while(!queue.isEmpty()&&dp[queue.peekLast()]<=dp[i]){
+                queue.pollLast();
+            }
+            queue.add(i);
         }
-        return dp[nums.length-1];
+        return dp[dp.length-1];
+        /*
+        1 0 -1 3 -4 7
+        5
+        */
     }
 }
- 
