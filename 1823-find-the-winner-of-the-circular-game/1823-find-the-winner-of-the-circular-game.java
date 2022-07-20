@@ -5,11 +5,6 @@ class Solution {
             alist.add(i+1);
         }
         int temp=k;
-        // while(alist.size()>1){
-        //     temp=(temp-1)%alist.size();
-        //     alist.remove(temp);
-        //     temp=temp+k;
-        // }
      return  helper(alist,temp,k);
     }
     public int helper(ArrayList<Integer> list,int temp,int k){
