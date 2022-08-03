@@ -1,5 +1,7 @@
 package HackersRank;
 import java.io.*;
+import java.util.HashMap;
+import java.util.Scanner;
 
 public class Cycle_Detection {
  

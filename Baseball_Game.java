@@ -18,9 +18,8 @@ public class Baseball_Game{
                  String temp1=   stack.pop();
                             String temp2=   stack.peek();
                stack.push(temp1); 
-               stack.push(Integer.toString(Integer.parseInt(temp1)+Integer.parseInt(temp2)));public class Baseball_Game {
-                   
-               }
+               stack.push(Integer.toString(Integer.parseInt(temp1)+Integer.parseInt(temp2)));
+         
                
                 }else {
                try {
@@ -40,4 +39,3 @@ public class Baseball_Game{
             return result;
         }
     }
-}

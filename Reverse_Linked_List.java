@@ -1,31 +1,31 @@
-public class Reverse_Linked_List {
+// public class Reverse_Linked_List {
 
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
+// /**
+//  * Definition for singly-linked list.
+//  * public class ListNode {
+//  *     int val;
+//  *     ListNode next;
+//  *     ListNode() {}
+//  *     ListNode(int val) { this.val = val; }
+//  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+//  * }
+//  */
 
-    public ListNode reverseList(ListNode head) {
+//     public ListNode reverseList(ListNode head) {
        
-        ListNode prevous=null;
-        ListNode nextTemp=null;
+//         ListNode prevous=null;
+//         ListNode nextTemp=null;
          
-        while(head!=null){
-           nextTemp=head.next;
-          head.next=prevous; 
-                        prevous=head;
+//         while(head!=null){
+//            nextTemp=head.next;
+//           head.next=prevous; 
+//                         prevous=head;
 
-        head=nextTemp;
+//         head=nextTemp;
             
             
-        }
-        return prevous;
-    }
+//         }
+//         return prevous;
+//     }
     
-}
+// }

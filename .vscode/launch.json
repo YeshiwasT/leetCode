@@ -1,0 +1,309 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch CodeForOne",
+            "request": "launch",
+            "mainClass": "CodeForOne",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "preLaunchTask": "clear-editor-history",
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Best_Time_to_Buy_and_Sell_Stock_II",
+            "request": "launch",
+            "mainClass": "Best_Time_to_Buy_and_Sell_Stock_II",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch Climbing_Stairs",
+            "request": "launch",
+            "mainClass": "Climbing_Stairs",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch Theatre_Square",
+            "request": "launch",
+            "mainClass": "CodeForce.Theatre_Square",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch DominoPiling",
+            "request": "launch",
+            "mainClass": "DominoPiling",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch Download_More_RAM",
+            "request": "launch",
+            "mainClass": "Download_More_RAM",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fibonacci_Number",
+            "request": "launch",
+            "mainClass": "Fibonacci_Number",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch Find_Kth_Bit_in_Nth_Binary_String",
+            "request": "launch",
+            "mainClass": "Find_Kth_Bit_in_Nth_Binary_String",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch Find_Target_Indices_After_Sorting_Array",
+            "request": "launch",
+            "mainClass": "Find_Target_Indices_After_Sorting_Array",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch Find_the_Difference",
+            "request": "launch",
+            "mainClass": "Find_the_Difference",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fizz_Buzz",
+            "request": "launch",
+            "mainClass": "Fizz_Buzz",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch Selection_Sort",
+            "request": "launch",
+            "mainClass": "Geeks_For_Geeks.Selection_Sort",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bubble_Sort",
+            "request": "launch",
+            "mainClass": "HackersRank.Bubble_Sort",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch Counting_Sort_1",
+            "request": "launch",
+            "mainClass": "HackersRank.Counting_Sort_1",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch Counting_Valleys",
+            "request": "launch",
+            "mainClass": "HackersRank.Counting_Valleys",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch Cycle_Detection",
+            "request": "launch",
+            "mainClass": "HackersRank.Cycle_Detection",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch Grading_Students",
+            "request": "launch",
+            "mainClass": "HackersRank.Grading_Students",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch Insertion_Sort_Part_1",
+            "request": "launch",
+            "mainClass": "HackersRank.Insertion_Sort_Part_1",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch HeapSort",
+            "request": "launch",
+            "mainClass": "HeapSort",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch How_Many_Numbers_Are_Smaller_Than_the_Current_Number",
+            "request": "launch",
+            "mainClass": "How_Many_Numbers_Are_Smaller_Than_the_Current_Number",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch Implement_Queue_using_Stacks",
+            "request": "launch",
+            "mainClass": "Implement_Queue_using_Stacks",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch Is_Subsequence",
+            "request": "launch",
+            "mainClass": "Is_Subsequence",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch KnapSnak",
+            "request": "launch",
+            "mainClass": "KnapSnak",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestCommonSubsequence",
+            "request": "launch",
+            "mainClass": "LongestCommonSubsequence",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch Longest_Substring_Without_Repeating_Characters",
+            "request": "launch",
+            "mainClass": "Longest_Substring_Without_Repeating_Characters",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch Maximum_Subarray",
+            "request": "launch",
+            "mainClass": "Maximum_Subarray",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch Merged_Interval",
+            "request": "launch",
+            "mainClass": "Merged_Interval",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch Number_of_Good_Pairs",
+            "request": "launch",
+            "mainClass": "Number_of_Good_Pairs",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch Palindrome_Number",
+            "request": "launch",
+            "mainClass": "Palindrome_Number",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch PowerXN",
+            "request": "launch",
+            "mainClass": "PowerXN",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch Power_of_Four",
+            "request": "launch",
+            "mainClass": "Power_of_Four",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch Power_of_Three",
+            "request": "launch",
+            "mainClass": "Power_of_Three",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch Factorial",
+            "request": "launch",
+            "mainClass": "PracticeJava.Recursive.Factorial",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch PalindromWord",
+            "request": "launch",
+            "mainClass": "PracticeJava.Recursive.PalindromWord",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch arrays",
+            "request": "launch",
+            "mainClass": "PracticeJava.arrays",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch Remove_Element",
+            "request": "launch",
+            "mainClass": "Remove_Element",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch Roman_to_Integer",
+            "request": "launch",
+            "mainClass": "Roman_to_Integer",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch Single_Number_II",
+            "request": "launch",
+            "mainClass": "Single_Number_II",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sort_Colors",
+            "request": "launch",
+            "mainClass": "Sort_Colors",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwoSum",
+            "request": "launch",
+            "mainClass": "TwoSum",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch Valid_Parentheses",
+            "request": "launch",
+            "mainClass": "Valid_Parentheses",
+            "projectName": "leetCode_aa0e3142"
+        },
+        {
+            "type": "java",
+            "name": "Launch longestSubsequence",
+            "request": "launch",
+            "mainClass": "longestSubsequence",
+            "projectName": "leetCode_aa0e3142"
+        }
+    ]
+}

@@ -10,11 +10,11 @@ public class Delete_Node_in_a_Linked_List {
  * }
  */
 
-    public void deleteNode(ListNode node) {
-        ListNode temp=node.next;
-        node.val=temp.val;
-        node.next=temp.next;
-        temp=null;
+    // public void deleteNode(ListNode node) {
+    //     ListNode temp=node.next;
+    //     node.val=temp.val;
+    //     node.next=temp.next;
+    //     temp=null;
         
-    }
+    // }
 }

@@ -24,7 +24,7 @@ public class Single_Number_II {
         public static void main(String[] args) {
            //  int[] notRepeted= {2,2,3,2};
           int[] notRepeted= {0,1,0,1,0,1,99};
-     System.out.println(   singleNumber(notRepeted));
+     System.out.println(singleNumber(notRepeted));
         
         }
         
