@@ -1,8 +1,7 @@
-
 import java.io.*;
 import java.util.*;
 
-public class first1 {
+public class Letters {
     public static void name(long[] dorm,long[] room) {
         long[] pre=new long[dorm.length];
         pre[0]=dorm[0];
@@ -32,41 +31,25 @@ public class first1 {
         try {
             FastReader in=new FastReader();
             FastWriter out = new FastWriter();
-            int testCases=in.nextInt();
+            int testCases=1;
             while(testCases-- > 0){
 
-                int n=in.nextInt();
+                int dorm=in.nextInt();
+                int room=in.nextInt();
        
-             int[] arr=new int[n];
+  long[] dormArr=new long[dorm];
 
-            for (int i = 0; i < arr.length; i++) {
-                 arr[i]=in.nextInt();
+            for (int i = 0; i < dormArr.length; i++) {
+                 dormArr[i]=in.nextLong();
           }
-          int[] roomArr=new int[n];
-            int j=n-1;
-            int i=0;
-            int k=0;
-            int serja=0;
-            int dima=0;
-        int count=0;
-         if(arr[i+1]>arr[i]){
-            count++;
-         }
-         if(arr[j-1]>arr[j]){
-            count++;
-         }
-          while(i<=j) {
-            if(arr[i+1]<arr[i]&&arr[j-1]<arr[j]&&i==j){
-               count++;
-             }
-            i++;
-            j--;
+          long[] roomArr=new long[room];
+
+          for (int i = 0; i < roomArr.length; i++) {
+           
+             roomArr[i]=in.nextLong();
       }
-      if(count>1){
-        System.out.println("No");
-      }else{
-        System.out.println("Yes");
-      }
+    
+      name(dormArr, roomArr);
   
             }
             out.close();
@@ -131,3 +114,20 @@ public class first1 {
   }
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

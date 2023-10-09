@@ -2,33 +2,66 @@
 import java.io.*;
 import java.util.*;
 
-public class Remove {
- 
+public class Less {
+    public static void name(long[] dorm,long[] room) {
+        long[] pre=new long[dorm.length];
+        pre[0]=dorm[0];
+        for(int i=1;i<pre.length;i++){
+        pre[i]=dorm[i]+pre[i-1];
+        }
+        for (int i = 0; i < room.length; i++) {
+           
+        int start=0;
+        int end=pre.length;
+        
+        while(start<end){
+            int mid=start+(end-start)/2;
+            if(room[i]<=pre[mid]){
+                end=mid;
+            }else{
+                start=mid+1;
+            }
+       
+        }
+        System.out.println((start+1)+" "+(room[i]- ((start-1>=0)?pre[start-1]:0)));
+
+        }
+    }
     public static void main(String[] args) {
         
         try {
             FastReader in=new FastReader();
             FastWriter out = new FastWriter();
-            int testCases=in.nextInt();
+            int testCases=1;
             while(testCases-- > 0){
 
                 int n=in.nextInt();
+                int k=in.nextInt();
        
-             int[] arr=new int[n];
+  int[] dormArr=new int[n];
 
-            for (int i = 0; i < arr.length; i++) {
-                 arr[i]=in.nextInt();
+            for (int i = 0; i < dormArr.length; i++) {
+                 dormArr[i]=in.nextInt();
           }
-          Arrays.sort(arr);
-          String ans="YES";
-        for (int idx = 0; idx < arr.length-1; idx++) {
-            if(arr[idx+1]-arr[idx]>1){
-                ans="NO";
-                break ;
-            }
-        }
 
-        out.println(ans);
+         Arrays.sort(dormArr);
+
+         if(k==0){
+            out.println(dormArr[k]-1);
+         }else if(k==n){
+            out.println(dormArr[k-1]+1);
+         }
+         else{
+         if (dormArr[k]==dormArr[k-1]){
+            out.println(-1);
+
+         }
+         else{
+            out.println(dormArr[k-1]+1);
+
+         }}
+      
+  
             }
             out.close();
         } catch (Exception e) {
